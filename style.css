@@ -1,0 +1,40 @@
+body {
+  background-color: #383F51;
+}
+
+header {
+  color: #DDDBF1;
+  margin: 0;
+  padding: 0;
+  vertical-align: text-bottom;
+  border: 1px solid white;
+}
+
+.box {
+  margin-top: 2%;
+  height: 650px;
+  display: flex;
+}
+
+.projects {
+    /*background-color: #AB9F9D;*/
+  height: 100%;
+}
+
+.about {
+  background-color: #FCD29F;
+  height: 100%;
+}
+
+a {
+  color: #3C4F76;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img:hover {
+  background-color: #DDDBF1;
+}

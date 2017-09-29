@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Sarah Hanson</title>
+
+    <link rel='stylesheet' href='./normalize.css'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <link rel='stylesheet' href='./style.css'>
+
+
+
+  </head>
+  <body>
+
+
+    <main class='container box'>
+      <div class='row'>
+        <div class='col s12 m6 projects center-align'>
+
+
+            <a href='#meetrunner' class='modal-trigger'><img class='responsive-img hoverable' src='./img/meetrunner-cap-edited.png'></a>
+            <a href='#budgie' class='modal-trigger'><img class='responsive-img hoverable' src='./img/budgie-cap-edited.png'></a>
+            <a href='#tinyhabits' class='modal-trigger'><img class='responsive-img hoverable' src='./img/tinyhabits-cap-edited.png'></a>
+            <a href='#sinclair' class='modal-trigger'><img class='responsive-img hoverable' src='./img/sinclaircalc-cap-edited.png'></a>
+
+
+        </div>
+
+        <div class='col s12 m6 about'>
+          <h5 class='right-align'>about</h5>
+          <p>Full-stack web developer with 4+ years experience in Quality Assurance.
+          Fast, eager learner with a strong ability to promote team cohesiveness.
+          Fastidious, articulate, and resourceful. </p>
+
+          <h5 class='right-align'>skills</h5>
+          <p>JavaScript, HTML, CSS, Angular, React/React Native, jQuery, Node, PostgreSQL, Mocha, Chai, Python, Java. </p>
+
+          <h5 class='right-align'>contact</h5>
+
+          <ul>
+            <li><a href='http://github.com/shhanson' title='github'>github.com/shhanson</a></li>
+            <li><a href='http://linkedin.com/in/shhanson' title='linkedin'>linkedin.com/in/shhanson</a></li>
+            <li><a href='https://medium.com/@shhanson' title='medium'>medium.com/@shhanson</a></li>
+            <li><a href='mailto:sarahh.hanson@gmail.com' title='email'>sarahh.hanson@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <div id='meetrunner' class='modal'>
+      <div class="modal-content">
+        <h4>MeetRunner</h4>
+        <p>September 2017 (Capstone)</p>
+        <p>MeetRunner is an application which provides an easy way for Meet Directors to create and manage Weightlifting competitions. Athletes looking to compete can search and register for competitions.</p>
+        <h5>Stack</h5>
+        <p>JavaScript, Node, Express, PostgreSQL, Mocha, Chai, Angular, Materialize, Heroku</p>
+
+        <ul>
+          <li><a href='http://meetrunner.herokuapp.com'>Live site</a></li>
+          <li><a href='http://github.com/shhanson/meetrunner'>GitHub repo</a></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn-flat">dismiss</a>
+      </div>
+    </div>
+
+    <div id='budgie' class='modal'>
+
+      <div class="modal-content">
+        <h4>Budgie</h4>
+        <p>July 2017</p>
+        <p>Budgie is a mobile app that provides users with an interactive graph to help visualize potential savings based on food and restaurant receipt input.</p>
+        <h5>Stack</h5>
+        <p>JavaScript, Node, Express, PostgreSQL, D3, Tesseract, Ionic Cordova, Amazon Web Services</p>
+
+        <ul>
+          <li><a href='http://github.com/shhanson/budgie'>GitHub repo</a></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn-flat">dismiss</a>
+      </div>
+
+    </div>
+
+    <div id='tinyhabits' class='modal'>
+      <div class="modal-content">
+        <h4>tinyhabits</h4>
+        <p>May 2017</p>
+        <p>tinyhabits is an application designed to aid users track and form long-term habits.</p>
+        <h5>Stack</h5>
+        <p>JavaScript, Node, Express, PostgreSQL, jQuery, Materialize, Heroku</p>
+
+        <ul>
+          <li><a href='http://tiny-habits.herokuapp.com'>Live site</a></li>
+          <li><a href='http://github.com/shhanson/tinyhabits'>GitHub repo</a></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn-flat">dismiss</a>
+      </div>
+
+    </div>
+
+    <div id='sinclair' class='modal'>
+      <div class="modal-content">
+        <h4>Sinclair Calculator</h4>
+        <p>August 2017</p>
+        <p>Sinclair Calculator is a mobile app which allows users to calculate Sinclair and Masters Sinclair totals to aid in determining Weightlifting results.</p>
+        <h5>Stack</h5>
+        <p>JavaScript, React Native</p>
+
+        <ul>
+          <li><a href='http://github.com/shhanson/sinclair_calc'>GitHub repo</a></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn-flat">dismiss</a>
+      </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.modal').modal();
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  </body>
+</html>
