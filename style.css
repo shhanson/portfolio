@@ -14,11 +14,13 @@ body {
 .projects {
     /*background-color: #AB9F9D;*/
   /*height: 100%;*/
+  color: #DDDBF1;
 }
 
 .about {
   background-color: #DDDBF1;
   /*height: 100%;*/
+
 }
 
 a {
