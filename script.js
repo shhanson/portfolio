@@ -10,11 +10,16 @@ $(document).ready(function(){
   //   $('.project').hide();
   //   $('#meetrunnerProject').show();
   // });
-
-  $(document).on(touchEvent, '#meetrunnerLink', function(){
+  const meetrunner = document.getElementById('meetrunnerLink');
+  meetrunner.addEventListener('click', function(){
     $('.project').hide();
     $('#meetrunnerProject').show();
   });
+
+  // $(document).on(touchEvent, '#meetrunnerLink', function(){
+  //   $('.project').hide();
+  //   $('#meetrunnerProject').show();
+  // });
 
   // $('#meetrunnerLink').click(() => {
   //   $('.project').hide();
