@@ -1,10 +1,12 @@
 $(document).ready(function(){
 
+  const touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+
   $('.materialboxed').materialbox();
 
   $('*').css('cursor', 'pointer');
 
-  $(document).on('click touchstart', '#meetrunnerLink', () => {
+  $(document).on(touchEvent, '#meetrunnerLink', () => {
     $('.project').hide();
     $('#meetrunnerProject').show();
   });
