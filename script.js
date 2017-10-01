@@ -1,10 +1,9 @@
 $(document).ready(function(){
-  const customEvent = $.support.touch ? "tap" : "click";
 
 
   $('.materialboxed').materialbox();
 
-  $(document).on(customEvent, '#meetrunnerLink', function(){
+  $(document).on('click touch', '#meetrunnerLink', function(){
       $('.project').hide();
       $('#meetrunnerProject').show();
   });
