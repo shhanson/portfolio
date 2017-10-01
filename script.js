@@ -4,15 +4,15 @@ $(document).ready(function(){
 
   $('*').css('cursor', 'pointer');
 
-  // $(document).on('click', '#meetrunnerLink', () => {
-  //   $('.project').hide();
-  //   $('#meetrunnerProject').show();
-  // });
-
-  $('#meetrunnerLink').click(() => {
+  $(document).on('click', '#meetrunnerLink', () => {
     $('.project').hide();
     $('#meetrunnerProject').show();
   });
+
+  // $('#meetrunnerLink').click(() => {
+  //   $('.project').hide();
+  //   $('#meetrunnerProject').show();
+  // });
 
 
   $('#budgieLink').click(() => {
