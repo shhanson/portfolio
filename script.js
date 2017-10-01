@@ -6,7 +6,12 @@ $(document).ready(function(){
 
   $('*').css('cursor', 'pointer');
 
-  $(document).on(touchEvent, '#meetrunnerLink', () => {
+  // $(document).on(touchEvent, '#meetrunnerLink', () => {
+  //   $('.project').hide();
+  //   $('#meetrunnerProject').show();
+  // });
+
+  $(document).on(touchEvent, '#meetrunnerLink', function(){
     $('.project').hide();
     $('#meetrunnerProject').show();
   });
