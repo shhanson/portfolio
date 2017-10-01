@@ -14,6 +14,10 @@ $(document).ready(function(){
   //     $('#meetrunnerProject').show();
   // });
 
+  $('#meetrunnerLink').on('tap', () => {
+    $('.project').hide();
+    $('#meetrunnerProject').show();
+  });
 
   $('#budgieLink').click(() => {
     $('.project').hide();
