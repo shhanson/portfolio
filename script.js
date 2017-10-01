@@ -3,6 +3,13 @@ $(document).ready(function(){
 
   $('.materialboxed').materialbox();
 
+  $('#meetrunnerLink').bind('tap', tapHandler);
+
+  function tapHandler(event){
+    $('.project').hide();
+    $('#meetrunnerProject').show();
+  }
+
 
 
   $('#meetrunnerLink').click(() => {
@@ -13,11 +20,11 @@ $(document).ready(function(){
   //     $('.project').hide();
   //     $('#meetrunnerProject').show();
   // });
-
-  $('#meetrunnerLink').on('tap', () => {
-    $('.project').hide();
-    $('#meetrunnerProject').show();
-  });
+  // 
+  // $('#meetrunnerLink').on('tap', () => {
+  //   $('.project').hide();
+  //   $('#meetrunnerProject').show();
+  // });
 
   $('#budgieLink').click(() => {
     $('.project').hide();
