@@ -18,11 +18,190 @@
   <body>
 
 
-    <main class='container box'>
+    <main id='top'>
       <div class='row'>
 
+        <section class='col s12 m2 project-menu'>
+          <h5>projects</h5>
+          <ul class='left-align'>
+            <li><a href='#' id='meetrunnerLink'>MeetRunner</a></li>
+            <li><a href='#' id='budgieLink'>Budgie</a></li>
+            <li><a href='#' id='sinclairLink'>Sinclair Calculator</a></li>
+            <li><a href='#' id='tinyhabitsLink'>tinyhabits</a></li>
+          </ul>
+        </section>
 
-        <div class='col s12 m6 about'>
+        <section class='col s12 m7 project-col'>
+          <div class='project' id='meetrunnerProject'>
+            <h4 class='center-align'>MeetRunner</h4>
+            <p class='center-align'>September 2017</p>
+
+            <h5>Description</h5>
+            <p>MeetRunner is an application which provides an easy way for Meet Directors to create and manage Weightlifting competitions. Athletes looking to compete can search and register for competitions.</p>
+
+            <p>This was my Final Capstone for <a href='https://www.galvanize.com/austin/web-development'>Galvanize</a>. We were given 2.5 weeks to work on the project.</p>
+
+            <h5>Motivation</h5>
+            <p>Currently, many Meet Directors rely on several tools to accomplish their needs: EventBrite, Facebook, email, and spreadsheets. There doesn't exist a "one stop shop" that handles registration fee collection, gathers Athlete information, allows organization of Athletes into sessions, and distributes event updates.</p>
+
+            <h5>Stack</h5>
+            <p>JavaScript, Node, Express, PostgreSQL, Mocha, Chai, Angular, Materialize, Heroku</p>
+
+            <h5>Screenshots</h5>
+
+
+
+              <img class="materialboxed thumbnail" src="./img/meetrunner/splash.png" data-caption='Landing page'>
+
+              <img class="materialboxed thumbnail" src="./img/meetrunner/allevents.png" data-caption='A list of all upcoming events (no login required to browse)'>
+
+              <img class="materialboxed thumbnail" src="./img/meetrunner/eventreg.png" data-caption='Event information (no login required to register for event)'>
+
+              <img class="materialboxed thumbnail" src="./img/meetrunner/myevents.png" data-caption='A list of events created by a User (site registration/login required)'>
+
+              <img class="materialboxed thumbnail" src="./img/meetrunner/sessions.png" data-caption='Event management view'>
+
+
+            <h5>To-do</h5>
+            <ul class='browser-default'>
+              <li>Implement PayPal Checkout</li>
+              <li>Allow User to update their email and password</li>
+              <li>Display proper error messages to Users</li>
+              <li>Improve "Manage Athletes" list view</li>
+            </ul>
+
+
+            <h5>Links</h5>
+            <ul>
+              <li><a href='http://meetrunner.herokuapp.com'>Live site</a></li>
+              <li><a href='http://github.com/shhanson/meetrunner'>GitHub repo</a></li>
+            </ul>
+
+            <div class='center-align'>
+              <a href='#top'>back to top</a>
+            </div>
+
+          </div>
+
+          <div class='project' id='budgieProject'>
+            <h4 class='center-align'>Budgie</h4>
+            <p class='center-align'>July 2017</p>
+
+            <h5>Description</h5>
+            <p>Budgie is a mobile app that provides users with an interactive graph to help visualize potential savings based on food and restaurant receipt input.</p>
+
+            <p>This was my quarter 3 project for <a href='https://www.galvanize.com/austin/web-development'>Galvanize</a>. We were given 1.5 weeks to work on the project.</p>
+
+            <h5>Collaborators</h5>
+            <ul>
+              <li>Abby Starnes</li>
+              <li>Amanda Allen</li>
+            </ul>
+
+            <h5>Stack</h5>
+            <p>JavaScript, Node, Express, PostgreSQL, D3, Tesseract, Ionic Cordova, Amazon Web Services</p>
+
+
+            <h5>Demo Video</h5>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8XtNTxX77M4?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+
+            <h5>To-do</h5>
+            <ul class='browser-default'>
+              <li>Implement social media login</li>
+              <li>Enhance graph; add additional graphs</li>
+              <li>Improve receipt view (search/sort, etc)</li>
+              <li>Add web frontend</li>
+            </ul>
+
+            <h5>Links</h5>
+            <ul>
+              <li><a href='http://github.com/shhanson/budgie'>GitHub repo</a></li>
+            </ul>
+
+            <div class='center-align'>
+              <a href='#top'>back to top</a>
+            </div>
+
+          </div>
+
+          <div class='project' id='sinclairProject'>
+            <h4 class='center-align'>Sinclair Caclulator</h4>
+            <p class='center-align'>August 2017</p>
+
+            <h5>Description</h5>
+            <p>Sinclair Calculator is a mobile app which allows users to calculate Sinclair and Masters Sinclair totals to aid in determining Weightlifting results.</p>
+
+            <p>I made this application in an effort to teach myself React Native.</p>
+
+            <h5>Stack</h5>
+            <p>JavaScript, React Native</p>
+
+            <h5>Screenshots</h5>
+            <img class='materialboxed thumbnail' src='./img/sinclair/sinclaircalc-cap.png'>
+
+            <h5>To-do</h5>
+            <ul class='browser-default'>
+              <li>Reorganize components</li>
+              <li>Implement Redux</li>
+              <li>Publish</li>
+            </ul>
+
+            <h5>Links</h5>
+            <ul>
+              <li><a href='http://github.com/shhanson/sinclair_calc'>GitHub repo</a></li>
+            </ul>
+
+            <div class='center-align'>
+              <a href='#top'>back to top</a>
+            </div>
+
+
+
+          </div>
+
+          <div class='project' id='tinyhabitsProject'>
+            <h4 class='center-align'>tinyhabits</h4>
+            <p class='center-align'>May 2017</p>
+
+            <h5>Description</h5>
+            <p>tinyhabits is an application designed to aid users track and form long-term habits. It is a software implementation of a method I personally used to effectively form better habits.</p>
+
+            <p>This was my quarter 2 project for <a href='https://www.galvanize.com/austin/web-development'>Galvanize</a>. We were given 1 week to work on the project.</p>
+
+            <h5>Stack</h5>
+            <p>JavaScript, Node, Express, PostgreSQL, jQuery, Materialize, Heroku</p>
+
+            <h5>Screenshots</h5>
+            <img class='materialboxed thumbnail' src='./img/tinyhabits/thsplash.png'>
+            <img class='materialboxed thumbnail' src='./img/tinyhabits/thtracker.png'>
+            <img class='materialboxed thumbnail' src='./img/tinyhabits/thmanage.png'>
+
+            <h5>To-do</h5>
+            <ul class='browser-default'>
+              <li>Better tutorial</li>
+              <li>Implement notifications</li>
+              <li>Add notes/links/media to tasks</li>
+              <li>Implement recurring rewards</li>
+            </ul>
+
+            <h5>Links</h5>
+            <ul>
+              <li><a href='http://tiny-habits.herokuapp.com'>Live site</a></li>
+              <li><a href='http://github.com/shhanson/tinyhabits'>GitHub repo</a></li>
+            </ul>
+
+            <div class='center-align'>
+              <a href='#top'>back to top</a>
+            </div>
+
+          </div>
+        </section>
+
+
+        <section class='col s12 m3 about'>
           <h5>about</h5>
           <p>Full stack web developer with 4+ years experience in Test Engineering.
           Fast, eager learner with a strong ability to promote team cohesiveness.
@@ -39,102 +218,20 @@
             <li><a href='https://medium.com/@shhanson' title='medium'>medium.com/@shhanson</a></li>
             <li><a href='mailto:sarahh.hanson@gmail.com' title='email'>sarahh.hanson@gmail.com</a></li>
           </ul>
-        </div>
+        </section>
 
-        <div class='col s12 m6 projects'>
-            <h5>projects</h5>
 
-            <a href='#meetrunner' class='modal-trigger'><img class='responsive-img hoverable' src='./img/meetrunner-cap-edited.png'></a>
-            <a href='#budgie' class='modal-trigger'><img class='responsive-img hoverable' src='./img/budgie-cap-edited.png'></a>
-            <a href='#sinclair' class='modal-trigger'><img class='responsive-img hoverable' src='./img/sinclaircalc-cap-edited.png'></a>
-            <a href='#tinyhabits' class='modal-trigger'><img class='responsive-img hoverable' src='./img/tinyhabits-cap-edited.png'></a>
 
-        </div>
+
 
       </div>
     </main>
 
-    <div id='meetrunner' class='modal'>
-      <div class="modal-content">
-        <h4>MeetRunner</h4>
-        <p>September 2017 (Capstone)</p>
-        <p>MeetRunner is an application which provides an easy way for Meet Directors to create and manage Weightlifting competitions. Athletes looking to compete can search and register for competitions.</p>
-        <h5>Stack</h5>
-        <p>JavaScript, Node, Express, PostgreSQL, Mocha, Chai, Angular, Materialize, Heroku</p>
 
-        <ul>
-          <li><a href='http://meetrunner.herokuapp.com'>Live site</a></li>
-          <li><a href='http://github.com/shhanson/meetrunner'>GitHub repo</a></li>
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close btn-flat">dismiss</a>
-      </div>
-    </div>
-
-    <div id='budgie' class='modal'>
-
-      <div class="modal-content">
-        <h4>Budgie</h4>
-        <p>July 2017</p>
-        <p>Budgie is a mobile app that provides users with an interactive graph to help visualize potential savings based on food and restaurant receipt input.</p>
-        <h5>Stack</h5>
-        <p>JavaScript, Node, Express, PostgreSQL, D3, Tesseract, Ionic Cordova, Amazon Web Services</p>
-
-        <ul>
-          <li><a href='http://github.com/shhanson/budgie'>GitHub repo</a></li>
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close btn-flat">dismiss</a>
-      </div>
-
-    </div>
-
-    <div id='tinyhabits' class='modal'>
-      <div class="modal-content">
-        <h4>tinyhabits</h4>
-        <p>May 2017</p>
-        <p>tinyhabits is an application designed to aid users track and form long-term habits.</p>
-        <h5>Stack</h5>
-        <p>JavaScript, Node, Express, PostgreSQL, jQuery, Materialize, Heroku</p>
-
-        <ul>
-          <li><a href='http://tiny-habits.herokuapp.com'>Live site</a></li>
-          <li><a href='http://github.com/shhanson/tinyhabits'>GitHub repo</a></li>
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close btn-flat">dismiss</a>
-      </div>
-
-    </div>
-
-    <div id='sinclair' class='modal'>
-      <div class="modal-content">
-        <h4>Sinclair Calculator</h4>
-        <p>August 2017</p>
-        <p>Sinclair Calculator is a mobile app which allows users to calculate Sinclair and Masters Sinclair totals to aid in determining Weightlifting results.</p>
-        <h5>Stack</h5>
-        <p>JavaScript, React Native</p>
-
-        <ul>
-          <li><a href='http://github.com/shhanson/sinclair_calc'>GitHub repo</a></li>
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close btn-flat">dismiss</a>
-      </div>
-
-    </div>
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('.modal').modal();
-      });
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type='text/javascript' src='./script.js'></script>
   </body>
 </html>

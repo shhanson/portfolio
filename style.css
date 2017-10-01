@@ -2,7 +2,7 @@
   font-family: 'Nunito', sans-serif;
 }
 body {
-  background-color: #383F51;
+  /*background-color: #383F51;*/
 }
 
 .box {
@@ -11,16 +11,25 @@ body {
   display: flex;
 }
 
-.projects {
+.project-col {
     /*background-color: #AB9F9D;*/
   /*height: 100%;*/
-  color: #DDDBF1;
+  /*color: #DDDBF1;*/
+}
+
+.project-menu {
+
 }
 
 .about {
-  background-color: #DDDBF1;
+  /*background-color: #DDDBF1;*/
+  background-color: whitesmoke;
   /*height: 100%;*/
 
+}
+
+.project {
+  display: none;
 }
 
 a {
@@ -34,4 +43,9 @@ a:hover {
 
 img:hover {
   background-color: #DDDBF1;
+}
+
+.thumbnail {
+  width: 50%;
+  margin: 10px;
 }
