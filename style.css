@@ -11,6 +11,13 @@ body {
   display: flex;
 }
 
+.about {
+  /*background-color: #DDDBF1;*/
+  background-color: whitesmoke;
+  /*height: 100%;*/
+
+}
+
 .project-col {
     /*background-color: #AB9F9D;*/
   /*height: 100%;*/
@@ -21,15 +28,13 @@ body {
 
 }
 
-.about {
-  /*background-color: #DDDBF1;*/
-  background-color: whitesmoke;
-  /*height: 100%;*/
-
-}
-
 .project {
   display: none;
+}
+
+#init {
+  display: block;
+  text-align: center;
 }
 
 a {
