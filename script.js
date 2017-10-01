@@ -3,16 +3,16 @@ $(document).ready(function(){
 
   $('.materialboxed').materialbox();
 
-  $(document).on('click touch', '#meetrunnerLink', function(){
-      $('.project').hide();
-      $('#meetrunnerProject').show();
-  });
-
-
-  // $('#meetrunnerLink').click(() => {
-  //   $('.project').hide();
-  //   $('#meetrunnerProject').show();
+  // $(document).on('click touch', '#meetrunnerLink', function(){
+  //     $('.project').hide();
+  //     $('#meetrunnerProject').show();
   // });
+
+
+  $('#meetrunnerLink').click(() => {
+    $('.project').hide();
+    $('#meetrunnerProject').show();
+  });
   // $('#meetrunnerLink').on('click', function(){
   //     $('.project').hide();
   //     $('#meetrunnerProject').show();
