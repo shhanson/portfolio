@@ -4,7 +4,7 @@ $(document).ready(function(){
 
   $('*').css('cursor', 'pointer');
 
-  $(document).on('click', '#meetrunnerLink', () => {
+  $(document).on('click touchstart', '#meetrunnerLink', () => {
     $('.project').hide();
     $('#meetrunnerProject').show();
   });
