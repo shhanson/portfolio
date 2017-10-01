@@ -25,7 +25,7 @@ body {
 }
 
 .project-menu {
-  cursor: pointer;
+
 
 }
 
@@ -54,4 +54,8 @@ img:hover {
 .thumbnail {
   width: 50%;
   margin: 10px;
+}
+
+.projectLink {
+  cursor: pointer;
 }
