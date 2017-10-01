@@ -2,11 +2,15 @@ $(document).ready(function(){
 
   $('.materialboxed').materialbox();
 
-
-  $('#meetrunnerLink').click(() => {
+  $(document).on('click', '#meetrunnerLink', () => {
     $('.project').hide();
     $('#meetrunnerProject').show();
   });
+
+  // $('#meetrunnerLink').click(() => {
+  //   $('.project').hide();
+  //   $('#meetrunnerProject').show();
+  // });
 
 
   $('#budgieLink').click(() => {
