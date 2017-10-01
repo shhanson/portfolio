@@ -1,26 +1,24 @@
 $(document).ready(function(){
+  const customEvent = $.support.touch ? "tap" : "click";
 
 
   $('.materialboxed').materialbox();
 
-  $('#meetrunnerLink').bind('tap', tapHandler);
-
-  function tapHandler(event){
-    $('.project').hide();
-    $('#meetrunnerProject').show();
-  }
-
-
-
-  $('#meetrunnerLink').click(() => {
-    $('.project').hide();
-    $('#meetrunnerProject').show();
+  $(document).on(customEvent, '#meetrunnerLink', function(){
+      $('.project').hide();
+      $('#meetrunnerProject').show();
   });
+
+
+  // $('#meetrunnerLink').click(() => {
+  //   $('.project').hide();
+  //   $('#meetrunnerProject').show();
+  // });
   // $('#meetrunnerLink').on('click', function(){
   //     $('.project').hide();
   //     $('#meetrunnerProject').show();
   // });
-  // 
+  //
   // $('#meetrunnerLink').on('tap', () => {
   //   $('.project').hide();
   //   $('#meetrunnerProject').show();
