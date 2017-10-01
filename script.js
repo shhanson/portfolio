@@ -2,6 +2,8 @@ $(document).ready(function(){
 
   $('.materialboxed').materialbox();
 
+  $('*').css('cursor', 'pointer');
+
   // $(document).on('click', '#meetrunnerLink', () => {
   //   $('.project').hide();
   //   $('#meetrunnerProject').show();
