@@ -1,6 +1,5 @@
 * {
   font-family: 'Nunito', sans-serif;
-  cursor: pointer;
 }
 body {
   /*background-color: #383F51;*/
@@ -26,6 +25,7 @@ body {
 }
 
 .project-menu {
+  cursor: pointer;
 
 }
 
